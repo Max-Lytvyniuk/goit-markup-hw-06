@@ -664,16 +664,32 @@
             </svg>
           </label>
 
+          <label for="comment" class="form-field">
+            <textarea class="form-textarea" placeholder=" "></textarea>
+            <span class="textarea-label">Комментарий</span>
+          </label>
+
           <label class="checkbox-field">
-            <input type="checkbox" name="topic" value="agreement" />
+            <input
+              class="checkbox"
+              type="checkbox"
+              name="topic"
+              value="agreement"
+            />
             <span class="checkbox-icon"></span>
             <span class="checkbox-label"
-              >Соглашаюсь с рассылкой и принимаю Условия договора</span
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="" class="checkbox-link">Условия договора</a></span
             >
           </label>
         </form>
+        <button type="submit" class="button-modal">Отправить</button>
 
-        <button data-modal-close>закрыть</button>
+        <button data-modal-close class="button-close">
+          <svg class="close-icon">
+            <use href="./images/symbol-defs.svg#icon-button-close"></use>
+          </svg>
+        </button>
       </div>
     </div>
 
