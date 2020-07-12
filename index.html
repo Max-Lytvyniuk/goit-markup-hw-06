@@ -598,7 +598,7 @@
         <div class="subscribe-container">
           <b class="subscribe">подпишитесь на рассылку</b>
 
-          <div class="subscribe-flex">
+          <form class="subscribe-flex">
             <label for="mail" class="subscribe-field">
               <input
                 type="mail"
@@ -615,7 +615,7 @@
                 <use href="./images/symbol-defs.svg#icon-send-footer"></use>
               </svg>
             </button>
-          </div>
+          </form>
         </div>
       </div>
 
@@ -705,8 +705,15 @@
               <a href="" class="checkbox-link">Условия договора</a></span
             >
           </label>
+
+          <button type="submit" class="button-modal">
+            Отправить
+          </button>
         </form>
-        <button type="submit" class="button-modal">Отправить</button>
+
+        <!-- <button type="submit" class="button-modal">
+          Отправить
+        </button> -->
 
         <button data-modal-close class="button-close">
           <svg class="close-icon">
